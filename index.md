@@ -1,4 +1,4 @@
-[Browser Addons](broweraddons.md)
+[Browser Addons](browseraddons.md)
 
 ## Welcome to GitHub Pages
 
