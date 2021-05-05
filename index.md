@@ -1,5 +1,9 @@
 [Browser Addons](browseraddons.md)
-
+{% for file in site.static_files %}
+{% if file.extname == ".md" %}
+[{{ file.basename }}]({{site.baseurl}}/{{file.basename}}.html)
+{% endif %}
+{% endfor %}
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/thomasschuiki/kantico/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
